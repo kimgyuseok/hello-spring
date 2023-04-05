@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a2bda7f-638a-49a3-a413-ea8e623d73d2" name="Changes" comment="20230324 1613">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JpaMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hellospring/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/domain/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/domain/Member.java" afterDir="false" />
+    <list default="true" id="9a2bda7f-638a-49a3-a413-ea8e623d73d2" name="Changes" comment="20230327 0946">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/aop/TimeTraceAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/SpringDateJpaMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hellospring/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hellospring/service/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/service/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/hellospring/service/MemberServiceIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/hellospring/service/MemberServiceIntegrationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/service/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,21 +61,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.preview.features.used": "true",
-    "last_opened_file_path": "C:/공부/01.Spring/hello-spring/hello-spring",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/공부/01.Spring/hello-spring/hello-spring&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -92,7 +91,7 @@
       <recent name="hello.hellospring.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceIntegrationTest">
+  <component name="RunManager" selected="Application.HelloSpringApplication">
     <configuration name="HelloSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hellospring.HelloSpringApplication" />
       <module name="hello-spring.main" />
@@ -170,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloSpringApplication" />
         <item itemvalue="JUnit.MemberServiceIntegrationTest" />
         <item itemvalue="JUnit.MemberServiceIntegrationTest.회원가입" />
         <item itemvalue="JUnit.MemberServiceTest" />
-        <item itemvalue="Application.HelloSpringApplication" />
         <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
       </list>
     </recent_temporary>
@@ -208,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679642024757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20230327 0946">
+      <created>1679877994529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679877994529</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +232,8 @@
     <MESSAGE value="20230323 0953" />
     <MESSAGE value="20230324 0852" />
     <MESSAGE value="20230324 1613" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230324 1613" />
+    <MESSAGE value="20230327 0946" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230327 0946" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
